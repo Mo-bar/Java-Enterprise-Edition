@@ -17,22 +17,27 @@ Une application java qui permettent de communiquer avec n'importe quel systeme d
 
 ###  pilote ou driver JDBC : 
 ```
-C'est une classe java chargée en mémoire qui établit la connexion entre une application java et un système de gestion de base de données
+C'est une classe java chargée en mémoire qui établit la connexion entre
+une application java et un système de gestion de base de données
 par exemple si on utilise MySql comme SGBD , il faut charge en memoire le driver "com.mysql.jdbc.Driver"
 ```
 ### La sérialisation 
 ```
-consiste à prendre un objet en mémoire et à le convertir en une représentation binaire, généralement sous forme d'un tableau d'octets. Cette représentation binaire peut ensuite être envoyée à une autre application, généralement via un réseau, où elle sera désérialisée pour reconstituer l'objet d'origine.
+consiste à prendre un objet en mémoire et à le convertir en une représentation binaire,
+généralement sous forme d'un tableau d'octets. Cette représentation binaire peut ensuite être envoyée à une autre application,
+généralement via un réseau, où elle sera désérialisée pour reconstituer l'objet d'origine.
 ```
 ### La désérialisation 
 ```
-est l'opération inverse de la sérialisation. Une fois que les données sérialisées sont reçues par l'application de destination, elles sont analysées et les octets sont utilisés pour reconstituer l'objet d'origine.
+est l'opération inverse de la sérialisation. Une fois que les données sérialisées sont
+reçues par l'application de destination, elles sont analysées et les octets sont utilisés pour reconstituer l'objet d'origine.
 ```
 
 ### Java Bean : 
 ```
 est une classe contient les auttributs prive , des méthodes d'accès, une construction par défaut et
-Implémentation de l'interface Serializable (facultatif) :  Cela permet à l'objet d'être sérialisé, c'est-à-dire converti en une représentation binaire pour être stocké ou transféré.
+Implémentation de l'interface Serializable (facultatif) :  Cela permet à l'objet d'être sérialisé,
+c'est-à-dire converti en une représentation binaire pour être stocké ou transféré.
 ```
 
 ### Une entité JPA 

@@ -44,4 +44,14 @@ c'est-à-dire converti en une représentation binaire pour être stocké ou tran
 ```
 Est une classe Java annotée avec des annotations JPA pour représenter une entité persistante dans une base de données
 ```
-### Mapping des associations et de l'héritage en JPA Hibernate Spring Data
+### Association OneToMany, ManyToOne, OneToOne : Exemple Rendez-Vous Médecins , Patients
+- Cahier de charge : 
+  - On souhaite gérer les rendez-vous des consultations des patients effectuées par des médecins.
+      Chaque Rendez-vous concerne un patient et un médecin.
+  - Pour chaque rendez-vous on associe une seule consultation issue de rendez-vous.
+  - Un Patient peut prendre plusieurs rendez-vous
+
+- Conception : 
+<img src="https://github.com/Mo-bar/Java-Enterprise-Edition/assets/98557431/a8029147-4834-4739-a9fc-ef178965c789">
+
+- [Presentation Java ](https://github.com/Mo-bar/Java-Enterprise-Edition/tree/main/Mapping-des-associations/src/main/java/org/barkouch/hopital)

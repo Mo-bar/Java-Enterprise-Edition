@@ -44,3 +44,4 @@ c'est-à-dire converti en une représentation binaire pour être stocké ou tran
 ```
 Est une classe Java annotée avec des annotations JPA pour représenter une entité persistante dans une base de données
 ```
+### Mapping des associations et de l'héritage en JPA Hibernate Spring Data

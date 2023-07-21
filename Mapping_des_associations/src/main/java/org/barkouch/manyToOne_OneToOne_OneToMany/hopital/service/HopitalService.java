@@ -1,13 +1,13 @@
-package org.barkouch.hopital.service;
+package org.barkouch.manyToOne_OneToOne_OneToMany.hopital.service;
 
-import org.barkouch.hopital.entity.Consultation;
-import org.barkouch.hopital.entity.Medecin;
-import org.barkouch.hopital.entity.Patient;
-import org.barkouch.hopital.entity.RendezVous;
-import org.barkouch.hopital.repos.ConsultationRepo;
-import org.barkouch.hopital.repos.MedecinRepo;
-import org.barkouch.hopital.repos.PatientRepo;
-import org.barkouch.hopital.repos.RendezVousRepo;
+import org.barkouch.manyToOne_OneToOne_OneToMany.hopital.entity.Consultation;
+import org.barkouch.manyToOne_OneToOne_OneToMany.hopital.entity.Medecin;
+import org.barkouch.manyToOne_OneToOne_OneToMany.hopital.entity.Patient;
+import org.barkouch.manyToOne_OneToOne_OneToMany.hopital.entity.RendezVous;
+import org.barkouch.manyToOne_OneToOne_OneToMany.hopital.repos.ConsultationRepo;
+import org.barkouch.manyToOne_OneToOne_OneToMany.hopital.repos.MedecinRepo;
+import org.barkouch.manyToOne_OneToOne_OneToMany.hopital.repos.PatientRepo;
+import org.barkouch.manyToOne_OneToOne_OneToMany.hopital.repos.RendezVousRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -55,4 +55,7 @@ Est une classe Java annotée avec des annotations JPA pour représenter une enti
 - Conception : 
 <img src="https://github.com/Mo-bar/Java-Enterprise-Edition/assets/98557431/a8029147-4834-4739-a9fc-ef178965c789">
 
+- Presentation SQL :
+<img src="https://github.com/Mo-bar/Java-Enterprise-Edition/assets/98557431/2428039c-3e60-4295-bc1e-8b4a03223dd2" >
+
 - [Presentation Java ](https://github.com/Mo-bar/Java-Enterprise-Edition/tree/main/Mapping-des-associations/src/main/java/org/barkouch/hopital)

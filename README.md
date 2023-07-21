@@ -44,7 +44,8 @@ c'est-à-dire converti en une représentation binaire pour être stocké ou tran
 ```
 Est une classe Java annotée avec des annotations JPA pour représenter une entité persistante dans une base de données
 ```
-### Association OneToMany, ManyToOne, OneToOne : Exemple Rendez-Vous Médecins , Patients
+### Association OneToMany, ManyToOne, OneToOne : 
+## Exemple Rendez-Vous Médecins , Patients
 - Cahier de charge : 
   - On souhaite gérer les rendez-vous des consultations des patients effectuées par des médecins.
       Chaque Rendez-vous concerne un patient et un médecin.

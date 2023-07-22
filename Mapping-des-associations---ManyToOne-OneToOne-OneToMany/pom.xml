@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.barkouch</groupId>
-    <artifactId>Mapping_des_associations</artifactId>
+    <artifactId>Mapping-des-associations---ManyToOne-OneToOne-OneToMany</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Mapping_des_associations</name>
+    <name>Mapping-des-associations---ManyToOne-OneToOne-OneToMany</name>
     <description>Mapping_des_associations</description>
     <properties>
         <java.version>17</java.version>

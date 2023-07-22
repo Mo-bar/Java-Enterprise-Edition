@@ -1,14 +1,15 @@
 package org.barkouch.hopital;
 
-import org.barkouch.manyToMany.usersRoles.entity.User;
-import org.barkouch.manyToMany.usersRoles.repos.UserRepo;
-import org.barkouch.manyToOne_OneToOne_OneToMany.hopital.entity.*;
+
+import org.barkouch.hopital.entity.*;
+import org.barkouch.hopital.service.IHopitalService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 import java.util.Arrays;
+import java.util.Date;
 
 @SpringBootApplication
 public class Presentation {
@@ -17,7 +18,7 @@ public class Presentation {
         SpringApplication.run(Presentation.class, args);
     }
 
-/*    @Bean
+    @Bean
     CommandLineRunner start(IHopitalService hopitalService){
         return args -> {
           for(String name : Arrays.asList("Ali","Joe","Moe")){
@@ -55,20 +56,10 @@ public class Presentation {
             hopitalService.saveConsultation(consultation);
 
 
-*//*          Patient p1 = hopitalService.findPatientByNom("ali").get(0);
-            System.out.println(p1.getRendezVous().get(0).getStatus());*//*
+          Patient p1 = hopitalService.findPatientByNom("ali").get(0);
+            System.out.println(p1.getRendezVous().get(0).getStatus());
 
-        };
-    }*/
-
-    @Bean
-    CommandLineRunner start(UserRepo userService){
-        return args -> {
-            for (String name : Arrays.asList("Ali","Mo","Joe")){
-                userService.save(
-                        new User(null,name,name+"@gmail.com","1234",null)
-                );
-            }
         };
     }
+
 }

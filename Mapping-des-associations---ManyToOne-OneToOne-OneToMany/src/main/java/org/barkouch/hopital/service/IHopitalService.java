@@ -1,9 +1,6 @@
 package org.barkouch.hopital.service;
 
-import org.barkouch.manyToOne_OneToOne_OneToMany.hopital.entity.Consultation;
-import org.barkouch.manyToOne_OneToOne_OneToMany.hopital.entity.Medecin;
-import org.barkouch.manyToOne_OneToOne_OneToMany.hopital.entity.Patient;
-import org.barkouch.manyToOne_OneToOne_OneToMany.hopital.entity.RendezVous;
+import org.barkouch.hopital.entity.*;
 
 import java.util.List;
 

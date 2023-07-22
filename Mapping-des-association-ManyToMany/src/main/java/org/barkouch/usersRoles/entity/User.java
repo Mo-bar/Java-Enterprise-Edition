@@ -20,7 +20,7 @@ public class User {
     private String email;
     private String passwd;
     @ManyToMany(mappedBy = "users",fetch = FetchType.EAGER)
-    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     private List<Role> roles = new ArrayList<>();
 
 }

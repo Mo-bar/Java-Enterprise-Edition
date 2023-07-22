@@ -18,7 +18,7 @@ public class Role {
     @Column(name = "ROLE_NAME",unique = true, nullable = false, length = 20)
     private String roleName;
     @ManyToMany(fetch = FetchType.EAGER)
-    @JsonProperty(access = JsonProperty.Access.READ_ONLY)
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private List<User> users = new ArrayList<>();
 
 }

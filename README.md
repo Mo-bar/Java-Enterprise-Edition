@@ -142,8 +142,15 @@ Class: Person
 Attributes: 
 - name: String 
 - age: int 
-- Class: Student Attributes: - studentId: int - major: String Relationships: Person --> Student : Inheritance
+
+Class: Student 
+Attributes: 
+- studentId: int 
+ - major: String 
+ 
+ Relationships: 
+Person --> Student : Inheritance
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTAzNzEwNCwxODE3MDAyOTM2LDM2NT
-MyMjAwNl19
+eyJoaXN0b3J5IjpbLTExMDM4ODk0MzUsMTgxNzAwMjkzNiwzNj
+UzMjIwMDZdfQ==
 -->

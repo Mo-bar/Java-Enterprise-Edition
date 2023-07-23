@@ -136,7 +136,14 @@ C[Etudiant] ---> A(Personne)
 Une table pour la classe parente et une table pour chaque classe fille `JOINED_TABLE`
 
 
+Class Diagram: 
 
+Class: Person 
+Attributes: 
+- name: String 
+- age: int 
+- Class: Student Attributes: - studentId: int - major: String Relationships: Person --> Student : Inheritance
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
+eyJoaXN0b3J5IjpbLTE1MTAzNzEwNCwxODE3MDAyOTM2LDM2NT
+MyMjAwNl19
 -->

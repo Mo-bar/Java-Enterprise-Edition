@@ -117,10 +117,9 @@ C[Etudiant] ---> A(Personne)
 	| Id |  Type  | Nom | Matiere | Note |  				
 	|-----|---------|--------|----------|------|  			
 	|  1  | Etudiant| Alice | Math |  90  | 						  
-
 	 |  2  | Professeur | Bob | Physics |  85  |
- 
-	- Une table pour chaque classe concréte `TABLE_PER_CLASS`
+ ______________________
+- **Une table pour chaque classe concréte `TABLE_PER_CLASS`**
 	
 	| Id | NomEtudiant | Note |
 	 |-----|--------|------|
@@ -139,5 +138,5 @@ Une table pour la classe parente et une table pour chaque classe fille `JOINED_T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1MzIyMDA2XX0=
+eyJoaXN0b3J5IjpbLTIxMjA1MzA5NjAsMzY1MzIyMDA2XX0=
 -->

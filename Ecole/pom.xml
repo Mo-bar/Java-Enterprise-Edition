@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.barkouch</groupId>
-    <artifactId>Mapping-des-associations___OneToMany-ManyToOne</artifactId>
+    <artifactId>OneToMany-ManyToOne</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Mapping.des.associations___OneToMany-ManyToOne</name>
+    <name>OneToMany-ManyToOne</name>
     <description>Mapping.des.associations___ManyToOne.OneToMany</description>
     <properties>
         <java.version>17</java.version>
@@ -36,6 +36,13 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

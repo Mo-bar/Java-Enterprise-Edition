@@ -44,18 +44,42 @@ c'est-à-dire converti en une représentation binaire pour être stocké ou tran
 ```
 Est une classe Java annotée avec des annotations JPA pour représenter une entité persistante dans une base de données
 ```
-### Association OneToMany, ManyToOne, OneToOne : 
-## Exemple Rendez-Vous Médecins , Patients
-- Cahier de charge : 
+## ASSOCIATIONS: OneToMany, ManyToOne, OneToOne : 
+### 1. HOPITAL : Rendez-Vous Médecins , Patients
+- #### CACHIER DE CHARGE : 
+```
   - On souhaite gérer les rendez-vous des consultations des patients effectuées par des médecins.
       Chaque Rendez-vous concerne un patient et un médecin.
   - Pour chaque rendez-vous on associe une seule consultation issue de rendez-vous.
   - Un Patient peut prendre plusieurs rendez-vous
+```
 
-- Conception : 
-<img src="https://github.com/Mo-bar/Java-Enterprise-Edition/assets/98557431/a8029147-4834-4739-a9fc-ef178965c789">
 
-- Presentation SQL :
+- ####  CONCEPTION :
+
+<img src="https://github.com/Mo-bar/Java-Enterprise-Edition/assets/98557431/391d7e95-942b-48e9-854f-66df4bfa5dee">
+
+- #### PRESENTATION SQL :
+
 <img src="https://github.com/Mo-bar/Java-Enterprise-Edition/assets/98557431/2428039c-3e60-4295-bc1e-8b4a03223dd2" >
 
-- [Presentation Java ](https://github.com/Mo-bar/Java-Enterprise-Edition/tree/main/Mapping-des-associations/src/main/java/org/barkouch/hopital)
+- [**PRESENTATION JAVA** ](https://github.com/Mo-bar/Java-Enterprise-Edition/tree/main/Hopital)
+
+### 2. Ecole : `Cours`, `Inscriptions`, `Etudiant`
+- #### CACHIER DE CHARGE : 
+```
+Un `Etudiant` peut s‘inscrire dans plusieurs `Cours` a une `date` donnée avec un `score` obtenu.
+Un `cours` concerne plusieurs `Inscriptions`. ( Plusieurs a Plusieurs avec Classe d’association `Inscription` )
+Equivalent à : Un Etudiant peut effectuer Plusieurs Inscription. Chaque Inscription Concerne un Cours
+Deux Associations : Un à Plusieurs + Plusieurs à 1
+```
+
+- ####  CONCEPTION :
+
+<img src="https://github.com/Mo-bar/Java-Enterprise-Edition/assets/98557431/160de169-d47b-412c-a99f-8ea5a29438aa">
+
+- #### PRESENTATION SQL :
+
+<img src="https://github.com/Mo-bar/Java-Enterprise-Edition/assets/98557431/d4046108-67d5-4a48-b5b7-4257e4a64543" >
+
+- [**PRESENTATION JAVA** ](https://github.com/Mo-bar/Java-Enterprise-Edition/tree/main/Ecole)

@@ -129,7 +129,7 @@ C[Etudiant] ---> A(Personne)
 	| Id | NomProfesseur | Matiere | 
 	|-----|--------|----------|
 	 | 1 | Alice | Math |
-	  | 2 | Bob | Physics |
+	 | 2 | Bob | Physics |
   
   
   
@@ -138,5 +138,5 @@ Une table pour la classe parente et une table pour chaque classe fille `JOINED_T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA1MzA5NjAsMzY1MzIyMDA2XX0=
+eyJoaXN0b3J5IjpbMTgxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
 -->

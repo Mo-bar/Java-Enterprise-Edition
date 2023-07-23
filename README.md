@@ -108,8 +108,8 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 
 ```mermaid
 graph LR
-B[Gestionnaire] --- A(Personne)
-C[Etudiant] ---[s] A(Personne)
+B[Gestionnaire] ---> A(Personne)
+C[Etudiant] ---> A(Personne)
 ```
 -  Les stratégies de Mapping de I'héritage
 	- Une table par hiérarchie `SINGLE_TABLE` :
@@ -137,6 +137,6 @@ Une table pour la classe parente et une table pour chaque classe fille `JOINED_T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTY5NDU1MywtMTEwMzg4OTQzNSwxOD
+eyJoaXN0b3J5IjpbLTMwODYwNDkxOCwtMTEwMzg4OTQzNSwxOD
 E3MDAyOTM2LDM2NTMyMjAwNl19
 -->

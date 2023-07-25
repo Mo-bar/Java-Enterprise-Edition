@@ -106,15 +106,16 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 -   #### CONCEPTION:
 <img src="https://github.com/Mo-bar/Java-Enterprise-Edition/assets/98557431/ac3e5f9b-0c81-49cd-aea9-ac2fd087676a">
 
--  #### Les stratégies de Mapping de I'héritage
-	- **Une table par hiérarchie `SINGLE_TABLE` : `Personne`**
-	-- 
-	| id | type   | nom        | dateNaiss  | matiere   | note |
-	|----|--------|------------|------------|-----------|------|
-	| 1  | Student| John Smith | 1995-08-15 | Math      | 85   |
-	| 2  | Student| Jane Doe   | 1998-03-22 | NULL      | 90   |
-	| 3  | Teacher| Mark Brown | 1980-11-02 | Physics   | NULL |
-	| 4  | Student| Emily Rose | 2000-06-10 | English   | 78   |
+ ### -- Les stratégies de Mapping de I'héritage
+ **Une table par hiérarchie `SINGLE_TABLE` : `Personne`**
+	
+| id | type   | nom        | dateNaiss  | matiere   | note |
+|----|--------|------------|------------|-----------|------|
+| 1  | Student| John Smith | 1995-08-15 | Math      | 85   |
+| 2  | Student| Jane Doe   | 1998-03-22 | Science   | 90   |
+| 3  | Teacher| Mark Brown | 1980-11-02 | Physics   | N/A  |
+| 4  | Student| Emily Rose | 2000-06-10 | English   | 78   |
+
 	
 	- **Une table pour chaque classe concréte `TABLE_PER_CLASS`**
 	--
@@ -137,7 +138,7 @@ Une table pour la classe parente et une table pour chaque classe fille `JOINED_T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Mzc3ODI1MSwxNDc1MzE4ODI1LDQ0OT
+eyJoaXN0b3J5IjpbLTUwMzAzMDY2NCwxNDc1MzE4ODI1LDQ0OT
 g3MjI5NCwtMzA4NjA0OTE4LC0xMTAzODg5NDM1LDE4MTcwMDI5
 MzYsMzY1MzIyMDA2XX0=
 -->

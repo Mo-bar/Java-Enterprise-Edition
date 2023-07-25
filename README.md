@@ -149,8 +149,7 @@ Mallieur cas d'utilisation : pas des colonnes rester null.
 
   - Commantaire : 
 ```
-La stratégie `SINGLE_TABLE` regroupe toutes les entités dans une seule table de la base de données, 
-avec une colonne de discrimination pour identifier le type d'entité de chaque enregistrement.
+Une table pour chaque classe concréte
 
 Avantages de `TABLE_PER_CLASS`:
 	- Pas de valeurs null dans les colonnes
@@ -189,10 +188,10 @@ Utilisée dans des situations où les classes d'entités ont des attributs signi
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1NzU3MDY1LDI2OTM2Mjc3MywtMTA1ND
-MzODk0NiwzMjI4MDY5NDMsMTk1ODM3NDI5MywzNDA4NzM1NDks
-LTEyNTM4MTAxOTQsMTk2NjU0MDIyOSwxNzEwMzc5NjgwLC0zMz
-A5Mzc1MTgsNTY2Mzc2NDY1LC0xNzc0NjU2MDUzLDE0NzUzMTg4
-MjUsNDQ5ODcyMjk0LC0zMDg2MDQ5MTgsLTExMDM4ODk0MzUsMT
-gxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
+eyJoaXN0b3J5IjpbMTQ2MzgwMzY2NCwzMjU3NTcwNjUsMjY5Mz
+YyNzczLC0xMDU0MzM4OTQ2LDMyMjgwNjk0MywxOTU4Mzc0Mjkz
+LDM0MDg3MzU0OSwtMTI1MzgxMDE5NCwxOTY2NTQwMjI5LDE3MT
+AzNzk2ODAsLTMzMDkzNzUxOCw1NjYzNzY0NjUsLTE3NzQ2NTYw
+NTMsMTQ3NTMxODgyNSw0NDk4NzIyOTQsLTMwODYwNDkxOCwtMT
+EwMzg4OTQzNSwxODE3MDAyOTM2LDM2NTMyMjAwNl19
 -->

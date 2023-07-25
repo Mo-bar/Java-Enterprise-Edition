@@ -118,7 +118,6 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 
 	
 **2. Une table pour chaque classe concréte `TABLE_PER_CLASS`**
-
 -- Etudiant : 
 | id | nom         | dateNaiss  | note |
 |----|-------------|------------|------|
@@ -164,7 +163,8 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDkzNzUxOCw1NjYzNzY0NjUsLTE3Nz
-Q2NTYwNTMsMTQ3NTMxODgyNSw0NDk4NzIyOTQsLTMwODYwNDkx
-OCwtMTEwMzg4OTQzNSwxODE3MDAyOTM2LDM2NTMyMjAwNl19
+eyJoaXN0b3J5IjpbMTY2OTY1NzIxNiwtMzMwOTM3NTE4LDU2Nj
+M3NjQ2NSwtMTc3NDY1NjA1MywxNDc1MzE4ODI1LDQ0OTg3MjI5
+NCwtMzA4NjA0OTE4LC0xMTAzODg5NDM1LDE4MTcwMDI5MzYsMz
+Y1MzIyMDA2XX0=
 -->

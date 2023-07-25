@@ -116,12 +116,13 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 | 3  | Teacher| Mark Brown | 1980-11-02 | Physics   | null |
 | 4  | Student| Emily Rose | 2000-06-10 | English   | 78   |
 
+- Commantaire : 
 ```
 Avantages de `SINGLE_TABLE`:
 	- Recherche de Données Rapide.
 Désavantages de `SINGLE_TABLE` : 
 	- Colonnes Redondantes.
-	- Colonnes rest null
+	- Certaines colonnes peuvent rester null.
 ```
 	
 **2. Une table pour chaque classe concréte `TABLE_PER_CLASS`**
@@ -171,9 +172,9 @@ Désavantages de `SINGLE_TABLE` :
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxNDM2MTgsLTEyNTM4MTAxOTQsMTk2Nj
-U0MDIyOSwxNzEwMzc5NjgwLC0zMzA5Mzc1MTgsNTY2Mzc2NDY1
-LC0xNzc0NjU2MDUzLDE0NzUzMTg4MjUsNDQ5ODcyMjk0LC0zMD
-g2MDQ5MTgsLTExMDM4ODk0MzUsMTgxNzAwMjkzNiwzNjUzMjIw
-MDZdfQ==
+eyJoaXN0b3J5IjpbMzQwODczNTQ5LC0xMjUzODEwMTk0LDE5Nj
+Y1NDAyMjksMTcxMDM3OTY4MCwtMzMwOTM3NTE4LDU2NjM3NjQ2
+NSwtMTc3NDY1NjA1MywxNDc1MzE4ODI1LDQ0OTg3MjI5NCwtMz
+A4NjA0OTE4LC0xMTAzODg5NDM1LDE4MTcwMDI5MzYsMzY1MzIy
+MDA2XX0=
 -->

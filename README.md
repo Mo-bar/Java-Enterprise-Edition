@@ -118,6 +118,10 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 
 - Commantaire : 
 ```
+  
+La stratégie `SINGLE_TABLE` regroupe toutes les entités dans une seule table de la base de données, 
+avec une colonne de discrimination pour identifier le type d'entité de chaque enregistrement.
+
 Avantages de `SINGLE_TABLE`:
 	- Recherche de Données Rapide.
 Désavantages de `SINGLE_TABLE` : 
@@ -172,9 +176,9 @@ Désavantages de `SINGLE_TABLE` :
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwODczNTQ5LC0xMjUzODEwMTk0LDE5Nj
-Y1NDAyMjksMTcxMDM3OTY4MCwtMzMwOTM3NTE4LDU2NjM3NjQ2
-NSwtMTc3NDY1NjA1MywxNDc1MzE4ODI1LDQ0OTg3MjI5NCwtMz
-A4NjA0OTE4LC0xMTAzODg5NDM1LDE4MTcwMDI5MzYsMzY1MzIy
-MDA2XX0=
+eyJoaXN0b3J5IjpbLTQ1NzM5MDMzMywzNDA4NzM1NDksLTEyNT
+M4MTAxOTQsMTk2NjU0MDIyOSwxNzEwMzc5NjgwLC0zMzA5Mzc1
+MTgsNTY2Mzc2NDY1LC0xNzc0NjU2MDUzLDE0NzUzMTg4MjUsND
+Q5ODcyMjk0LC0zMDg2MDQ5MTgsLTExMDM4ODk0MzUsMTgxNzAw
+MjkzNiwzNjUzMjIwMDZdfQ==
 -->

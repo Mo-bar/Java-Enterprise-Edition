@@ -149,7 +149,7 @@ Mallieur cas d'utilisation : pas des colonnes rester null.
 
   - Commantaire : 
 ```
-Une table pour chaque classe concréte
+TABLE_PER_CLASS : Une table pour chaque classe concréte
 
 Avantages de `TABLE_PER_CLASS`:
 	- Pas de valeurs null dans les colonnes
@@ -188,7 +188,7 @@ Utilisée dans des situations où les classes d'entités ont des attributs signi
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzgwMzY2NCwzMjU3NTcwNjUsMjY5Mz
+eyJoaXN0b3J5IjpbMTE5OTUyNTgzOSwzMjU3NTcwNjUsMjY5Mz
 YyNzczLC0xMDU0MzM4OTQ2LDMyMjgwNjk0MywxOTU4Mzc0Mjkz
 LDM0MDg3MzU0OSwtMTI1MzgxMDE5NCwxOTY2NTQwMjI5LDE3MT
 AzNzk2ODAsLTMzMDkzNzUxOCw1NjYzNzY0NjUsLTE3NzQ2NTYw

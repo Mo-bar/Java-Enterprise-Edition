@@ -155,10 +155,11 @@ avec une colonne de discrimination pour identifier le type d'entité de chaque e
 
 Avantages de `TABLE_PER_CLASS`:
 	- Recherche de Données Rapide.
+	- Pas de valeurs null dans les colonnes
 
 Désavantages de `TABLE_PER_CLASS` : 
 	- Colonnes Redondantes.
-	- Certaines colonnes peuvent rester null.
+	- 
 
 Utilisée dans des situations où les classes d'entités ont des attributs significativement différents
 ```
@@ -191,9 +192,9 @@ Utilisée dans des situations où les classes d'entités ont des attributs signi
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyODA2OTQzLDE5NTgzNzQyOTMsMzQwOD
-czNTQ5LC0xMjUzODEwMTk0LDE5NjY1NDAyMjksMTcxMDM3OTY4
-MCwtMzMwOTM3NTE4LDU2NjM3NjQ2NSwtMTc3NDY1NjA1MywxND
-c1MzE4ODI1LDQ0OTg3MjI5NCwtMzA4NjA0OTE4LC0xMTAzODg5
-NDM1LDE4MTcwMDI5MzYsMzY1MzIyMDA2XX0=
+eyJoaXN0b3J5IjpbMTgwMDIzMTUsMzIyODA2OTQzLDE5NTgzNz
+QyOTMsMzQwODczNTQ5LC0xMjUzODEwMTk0LDE5NjY1NDAyMjks
+MTcxMDM3OTY4MCwtMzMwOTM3NTE4LDU2NjM3NjQ2NSwtMTc3ND
+Y1NjA1MywxNDc1MzE4ODI1LDQ0OTg3MjI5NCwtMzA4NjA0OTE4
+LC0xMTAzODg5NDM1LDE4MTcwMDI5MzYsMzY1MzIyMDA2XX0=
 -->

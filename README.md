@@ -109,10 +109,13 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 -  #### Les stratégies de Mapping de I'héritage
 	- **Une table par hiérarchie `SINGLE_TABLE` : `Personne`**
 	
-	| Id |  Type  | Nom | Matiere | Note |  				
-	|-----|---------|--------|----------|------|  			
-	|  1  | Etudiant| Alice | Math |  90  | 						  
-	 |  2  | Professeur | Bob | Physics |  85  |
+| id | type   | nom        | dateNaiss  | matiere   | note |
+|----|--------|------------|------------|-----------|------|
+| 1  | Student| John Smith | 1995-08-15 | Math      | 85   |
+| 2  | Student| Jane Doe   | 1998-03-22 | Science   | 90   |
+| 3  | Teacher| Mark Brown | 1980-11-02 | Physics   | N/A  |
+| 4  | Student| Emily Rose | 2000-06-10 | English   | 78   |
+
  ______________________
 - **Une table pour chaque classe concréte `TABLE_PER_CLASS`**
 	
@@ -132,6 +135,6 @@ Une table pour la classe parente et une table pour chaque classe fille `JOINED_T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEzODU3NjkwLC0zMDg2MDQ5MTgsLTExMD
-M4ODk0MzUsMTgxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
+eyJoaXN0b3J5IjpbMTUwMDU2NDYyOCwtMzA4NjA0OTE4LC0xMT
+AzODg5NDM1LDE4MTcwMDI5MzYsMzY1MzIyMDA2XX0=
 -->

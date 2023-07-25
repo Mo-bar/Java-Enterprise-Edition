@@ -116,6 +116,10 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 | 3  | Teacher| Mark Brown | 1980-11-02 | Physics   | null |
 | 4  | Student| Emily Rose | 2000-06-10 | English   | 78   |
 
+```
+Avantages de `SINGLE_TABLE`:
+	- 
+```
 	
 **2. Une table pour chaque classe concréte `TABLE_PER_CLASS`**
 - Etudiant : 
@@ -164,8 +168,8 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMDM3OTY4MCwtMzMwOTM3NTE4LDU2Nj
-M3NjQ2NSwtMTc3NDY1NjA1MywxNDc1MzE4ODI1LDQ0OTg3MjI5
-NCwtMzA4NjA0OTE4LC0xMTAzODg5NDM1LDE4MTcwMDI5MzYsMz
-Y1MzIyMDA2XX0=
+eyJoaXN0b3J5IjpbMTk2NjU0MDIyOSwxNzEwMzc5NjgwLC0zMz
+A5Mzc1MTgsNTY2Mzc2NDY1LC0xNzc0NjU2MDUzLDE0NzUzMTg4
+MjUsNDQ5ODcyMjk0LC0zMDg2MDQ5MTgsLTExMDM4ODk0MzUsMT
+gxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
 -->

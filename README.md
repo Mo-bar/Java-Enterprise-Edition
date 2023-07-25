@@ -125,7 +125,6 @@ Avantages de `SINGLE_TABLE`:
 	- Recherche de Données Rapide.
 
 Désavantages de `SINGLE_TABLE` : 
-	- Redondantes de donnees.
 	- Certaines colonnes peuvent rester null.
 
 Mallieur cas d'utilisation : pas des colonnes rester null.
@@ -191,10 +190,10 @@ Utilisée dans des situations où les classes d'entités ont des attributs signi
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQzMzg5NDYsMzIyODA2OTQzLDE5NT
-gzNzQyOTMsMzQwODczNTQ5LC0xMjUzODEwMTk0LDE5NjY1NDAy
-MjksMTcxMDM3OTY4MCwtMzMwOTM3NTE4LDU2NjM3NjQ2NSwtMT
-c3NDY1NjA1MywxNDc1MzE4ODI1LDQ0OTg3MjI5NCwtMzA4NjA0
-OTE4LC0xMTAzODg5NDM1LDE4MTcwMDI5MzYsMzY1MzIyMDA2XX
-0=
+eyJoaXN0b3J5IjpbMjY5MzYyNzczLC0xMDU0MzM4OTQ2LDMyMj
+gwNjk0MywxOTU4Mzc0MjkzLDM0MDg3MzU0OSwtMTI1MzgxMDE5
+NCwxOTY2NTQwMjI5LDE3MTAzNzk2ODAsLTMzMDkzNzUxOCw1Nj
+YzNzY0NjUsLTE3NzQ2NTYwNTMsMTQ3NTMxODgyNSw0NDk4NzIy
+OTQsLTMwODYwNDkxOCwtMTEwMzg4OTQzNSwxODE3MDAyOTM2LD
+M2NTMyMjAwNl19
 -->

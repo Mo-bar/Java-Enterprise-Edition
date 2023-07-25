@@ -118,13 +118,13 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 
 	
 **2. Une table pour chaque classe concréte `TABLE_PER_CLASS`**
-Etudiant : 
+-- Etudiant : 
 | id | nom         | dateNaiss  | note |
 |----|-------------|------------|------|
 | 1  | John Smith  | 1995-08-15 | 85   |
 | 2  | Jane Doe    | 1998-03-22 | 90   |
 | 3  | Emily Rose  | 2000-06-10 | 78   |
-Ensignant : 
+-- Ensignant : 
 | id | nom         | dateNaiss  | matiere   |
 |----|-------------|------------|-----------|
 | 1  | Mark Brown  | 1980-11-02 | Physics   |
@@ -157,7 +157,8 @@ Ensignant :
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2Mzc2NDY1LC0xNzc0NjU2MDUzLDE0Nz
-UzMTg4MjUsNDQ5ODcyMjk0LC0zMDg2MDQ5MTgsLTExMDM4ODk0
-MzUsMTgxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
+eyJoaXN0b3J5IjpbLTE0ODgwMDk0MjksNTY2Mzc2NDY1LC0xNz
+c0NjU2MDUzLDE0NzUzMTg4MjUsNDQ5ODcyMjk0LC0zMDg2MDQ5
+MTgsLTExMDM4ODk0MzUsMTgxNzAwMjkzNiwzNjUzMjIwMDZdfQ
+==
 -->

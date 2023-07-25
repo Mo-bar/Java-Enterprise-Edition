@@ -119,6 +119,9 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 ```
 Avantages de `SINGLE_TABLE`:
 	- Recherche de Données Rapide.
+Désavantages de `SINGLE_TABLE` : 
+	- Colonnes Redondantes.
+	- Colonnes rest null
 ```
 	
 **2. Une table pour chaque classe concréte `TABLE_PER_CLASS`**
@@ -168,8 +171,9 @@ Avantages de `SINGLE_TABLE`:
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTM4MTAxOTQsMTk2NjU0MDIyOSwxNz
-EwMzc5NjgwLC0zMzA5Mzc1MTgsNTY2Mzc2NDY1LC0xNzc0NjU2
-MDUzLDE0NzUzMTg4MjUsNDQ5ODcyMjk0LC0zMDg2MDQ5MTgsLT
-ExMDM4ODk0MzUsMTgxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
+eyJoaXN0b3J5IjpbMjcxNDM2MTgsLTEyNTM4MTAxOTQsMTk2Nj
+U0MDIyOSwxNzEwMzc5NjgwLC0zMzA5Mzc1MTgsNTY2Mzc2NDY1
+LC0xNzc0NjU2MDUzLDE0NzUzMTg4MjUsNDQ5ODcyMjk0LC0zMD
+g2MDQ5MTgsLTExMDM4ODk0MzUsMTgxNzAwMjkzNiwzNjUzMjIw
+MDZdfQ==
 -->

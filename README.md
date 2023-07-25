@@ -116,12 +116,14 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 | 3  | Teacher| Mark Brown | 1980-11-02 | Physics   | NULL |
 | 4  | Student| Emily Rose | 2000-06-10 | English   | 78   |
 
- ______________________
-- **Une table pour chaque classe concréte `TABLE_PER_CLASS`**
+	- **Une table pour chaque classe concréte `TABLE_PER_CLASS`**
 	
-	| Id | NomEtudiant | Note |
-	 |-----|--------|------|
-	 | 1 | Alice | 90 | | 2 | Bob | 85 |
+| id | nom         | dateNaiss  | note |
+|----|-------------|------------|------|
+| 1  | John Smith  | 1995-08-15 | 85   |
+| 2  | Jane Doe    | 1998-03-22 | 90   |
+| 3  | Emily Rose  | 2000-06-10 | 78   |
+
 
 	
 	| Id | NomProfesseur | Matiere | 
@@ -135,6 +137,7 @@ Une table pour la classe parente et une table pour chaque classe fille `JOINED_T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5ODcyMjk0LC0zMDg2MDQ5MTgsLTExMD
-M4ODk0MzUsMTgxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
+eyJoaXN0b3J5IjpbMTQ3NTMxODgyNSw0NDk4NzIyOTQsLTMwOD
+YwNDkxOCwtMTEwMzg4OTQzNSwxODE3MDAyOTM2LDM2NTMyMjAw
+Nl19
 -->

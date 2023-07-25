@@ -153,7 +153,6 @@ La stratégie `SINGLE_TABLE` regroupe toutes les entités dans une seule table d
 avec une colonne de discrimination pour identifier le type d'entité de chaque enregistrement.
 
 Avantages de `TABLE_PER_CLASS`:
-	- Recherche de Données Rapide.
 	- Pas de valeurs null dans les colonnes
 
 Désavantages de `TABLE_PER_CLASS` : 
@@ -190,10 +189,10 @@ Utilisée dans des situations où les classes d'entités ont des attributs signi
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5MzYyNzczLC0xMDU0MzM4OTQ2LDMyMj
-gwNjk0MywxOTU4Mzc0MjkzLDM0MDg3MzU0OSwtMTI1MzgxMDE5
-NCwxOTY2NTQwMjI5LDE3MTAzNzk2ODAsLTMzMDkzNzUxOCw1Nj
-YzNzY0NjUsLTE3NzQ2NTYwNTMsMTQ3NTMxODgyNSw0NDk4NzIy
-OTQsLTMwODYwNDkxOCwtMTEwMzg4OTQzNSwxODE3MDAyOTM2LD
-M2NTMyMjAwNl19
+eyJoaXN0b3J5IjpbMzI1NzU3MDY1LDI2OTM2Mjc3MywtMTA1ND
+MzODk0NiwzMjI4MDY5NDMsMTk1ODM3NDI5MywzNDA4NzM1NDks
+LTEyNTM4MTAxOTQsMTk2NjU0MDIyOSwxNzEwMzc5NjgwLC0zMz
+A5Mzc1MTgsNTY2Mzc2NDY1LC0xNzc0NjU2MDUzLDE0NzUzMTg4
+MjUsNDQ5ODcyMjk0LC0zMDg2MDQ5MTgsLTExMDM4ODk0MzUsMT
+gxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
 -->

@@ -129,7 +129,6 @@ Désavantages de `SINGLE_TABLE` :
 	- Certaines colonnes peuvent rester null.
 
 Mallieur cas d'utilisation : pas des colonnes rester null.
-
 ```
 	
 **2. Une table pour chaque classe concréte `TABLE_PER_CLASS`**
@@ -149,7 +148,20 @@ Mallieur cas d'utilisation : pas des colonnes rester null.
 | 2  | Laura Green | 1975-05-18 | Math      |
 | 3  | James White | 1985-09-30 | English   |
 
-  
+  - Commantaire : 
+```
+La stratégie `SINGLE_TABLE` regroupe toutes les entités dans une seule table de la base de données, 
+avec une colonne de discrimination pour identifier le type d'entité de chaque enregistrement.
+
+Avantages de `SINGLE_TABLE`:
+	- Recherche de Données Rapide.
+
+Désavantages de `SINGLE_TABLE` : 
+	- Colonnes Redondantes.
+	- Certaines colonnes peuvent rester null.
+
+Mallieur cas d'utilisation : pas des colonnes rester null.
+```
   
   
 **3. Une table pour la classe parente et une table pour chaque classe fille `JOINED_TABLE`:**
@@ -179,7 +191,7 @@ Mallieur cas d'utilisation : pas des colonnes rester null.
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Mzc2NDAxNiwxOTU4Mzc0MjkzLDM0MD
+eyJoaXN0b3J5IjpbMTgwNjY4MjUxNCwxOTU4Mzc0MjkzLDM0MD
 g3MzU0OSwtMTI1MzgxMDE5NCwxOTY2NTQwMjI5LDE3MTAzNzk2
 ODAsLTMzMDkzNzUxOCw1NjYzNzY0NjUsLTE3NzQ2NTYwNTMsMT
 Q3NTMxODgyNSw0NDk4NzIyOTQsLTMwODYwNDkxOCwtMTEwMzg4

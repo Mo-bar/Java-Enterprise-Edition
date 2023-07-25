@@ -134,22 +134,21 @@ Ensignant :
   
   
   
-Une table pour la classe parente et une table pour chaque classe fille `JOINED_TABLE`:
+**3. Une table pour la classe parente et une table pour chaque classe fille `JOINED_TABLE`:**
+-- Personne : 
 | id | nom         | dateNaiss  |
 |----|-------------|------------|
 | 1  | John Smith  | 1995-08-15 |
 | 2  | Jane Doe    | 1998-03-22 |
 | 3  | Emily Rose  | 2000-06-10 |
-| 4  | Mark Brown  | 1980-11-02 |
-| 5  | Laura Green | 1975-05-18 |
-| 6  | James White | 1985-09-30 |
-
+-- Etudiant : 
 
 | #Id | note |
 |-----|------|
 | 1   | 85   |
 | 2   | 90   |
 | 3   | 78   |
+-- Ensignan
 
 | #Id | matiere   |
 |-----|-----------|
@@ -158,7 +157,7 @@ Une table pour la classe parente et une table pour chaque classe fille `JOINED_T
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyMTk0NDk3LC0xNzc0NjU2MDUzLDE0Nz
+eyJoaXN0b3J5IjpbNzQ5NzI2ODY1LC0xNzc0NjU2MDUzLDE0Nz
 UzMTg4MjUsNDQ5ODcyMjk0LC0zMDg2MDQ5MTgsLTExMDM4ODk0
 MzUsMTgxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
 -->

@@ -118,7 +118,7 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 
 	
 **2. Une table pour chaque classe concréte `TABLE_PER_CLASS`**
-T
+Etudiant : 
 | id | nom         | dateNaiss  | note |
 |----|-------------|------------|------|
 | 1  | John Smith  | 1995-08-15 | 85   |
@@ -138,7 +138,7 @@ Une table pour la classe parente et une table pour chaque classe fille `JOINED_T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5Mzc4MTEzLDE0NzUzMTg4MjUsNDQ5OD
-cyMjk0LC0zMDg2MDQ5MTgsLTExMDM4ODk0MzUsMTgxNzAwMjkz
-NiwzNjUzMjIwMDZdfQ==
+eyJoaXN0b3J5IjpbLTE3NzQ2NTYwNTMsMTQ3NTMxODgyNSw0ND
+k4NzIyOTQsLTMwODYwNDkxOCwtMTEwMzg4OTQzNSwxODE3MDAy
+OTM2LDM2NTMyMjAwNl19
 -->

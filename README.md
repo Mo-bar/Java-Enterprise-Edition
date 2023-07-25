@@ -125,6 +125,8 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 | 1  | John Smith  | 1995-08-15 | 85   |
 | 2  | Jane Doe    | 1998-03-22 | 90   |
 | 3  | Emily Rose  | 2000-06-10 | 78   |
+
+
 -- Ensignant : 
 | id | nom         | dateNaiss  | matiere   |
 |----|-------------|------------|-----------|
@@ -158,7 +160,7 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzQyMDY5Nyw1NjYzNzY0NjUsLTE3Nz
+eyJoaXN0b3J5IjpbLTkzNjI2MjE1NSw1NjYzNzY0NjUsLTE3Nz
 Q2NTYwNTMsMTQ3NTMxODgyNSw0NDk4NzIyOTQsLTMwODYwNDkx
 OCwtMTEwMzg4OTQzNSwxODE3MDAyOTM2LDM2NTMyMjAwNl19
 -->

@@ -153,14 +153,14 @@ Mallieur cas d'utilisation : pas des colonnes rester null.
 La stratégie `SINGLE_TABLE` regroupe toutes les entités dans une seule table de la base de données, 
 avec une colonne de discrimination pour identifier le type d'entité de chaque enregistrement.
 
-Avantages de `SINGLE_TABLE`:
+Avantages de `TABLE_PER_CLASS`:
 	- Recherche de Données Rapide.
 
-Désavantages de `SINGLE_TABLE` : 
+Désavantages de `TABLE_PER_CLASS` : 
 	- Colonnes Redondantes.
 	- Certaines colonnes peuvent rester null.
 
-Mallieur cas d'utilisation : pas des colonnes rester null.
+Utilisée dans des situations où les classes d'entités ont des attributs significativement différents
 ```
   
   
@@ -191,9 +191,9 @@ Mallieur cas d'utilisation : pas des colonnes rester null.
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjY4MjUxNCwxOTU4Mzc0MjkzLDM0MD
-g3MzU0OSwtMTI1MzgxMDE5NCwxOTY2NTQwMjI5LDE3MTAzNzk2
-ODAsLTMzMDkzNzUxOCw1NjYzNzY0NjUsLTE3NzQ2NTYwNTMsMT
-Q3NTMxODgyNSw0NDk4NzIyOTQsLTMwODYwNDkxOCwtMTEwMzg4
-OTQzNSwxODE3MDAyOTM2LDM2NTMyMjAwNl19
+eyJoaXN0b3J5IjpbMzIyODA2OTQzLDE5NTgzNzQyOTMsMzQwOD
+czNTQ5LC0xMjUzODEwMTk0LDE5NjY1NDAyMjksMTcxMDM3OTY4
+MCwtMzMwOTM3NTE4LDU2NjM3NjQ2NSwtMTc3NDY1NjA1MywxND
+c1MzE4ODI1LDQ0OTg3MjI5NCwtMzA4NjA0OTE4LC0xMTAzODg5
+NDM1LDE4MTcwMDI5MzYsMzY1MzIyMDA2XX0=
 -->

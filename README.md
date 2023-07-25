@@ -106,8 +106,8 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 -   #### CONCEPTION:
 <img src="https://github.com/Mo-bar/Java-Enterprise-Edition/assets/98557431/ac3e5f9b-0c81-49cd-aea9-ac2fd087676a">
 
- ### -- Les stratégies de Mapping de I'héritage
- **Une table par hiérarchie `SINGLE_TABLE` : `Personne`**
+ ### -- Les stratégies de Mapping de I'héritage :
+ **1. Une table par hiérarchie `SINGLE_TABLE` : `Personne`**
 	
 | id | type   | nom        | dateNaiss  | matiere   | note |
 |----|--------|------------|------------|-----------|------|
@@ -117,20 +117,20 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 | 4  | Student| Emily Rose | 2000-06-10 | English   | 78   |
 
 	
-	- **Une table pour chaque classe concréte `TABLE_PER_CLASS`**
-	--
-	| id | nom         | dateNaiss  | note |
-	|----|-------------|------------|------|
-	| 1  | John Smith  | 1995-08-15 | 85   |
-	| 2  | Jane Doe    | 1998-03-22 | 90   |
-	| 3  | Emily Rose  | 2000-06-10 | 78   |
+**2. Une table pour chaque classe concréte `TABLE_PER_CLASS`**
+T
+| id | nom         | dateNaiss  | note |
+|----|-------------|------------|------|
+| 1  | John Smith  | 1995-08-15 | 85   |
+| 2  | Jane Doe    | 1998-03-22 | 90   |
+| 3  | Emily Rose  | 2000-06-10 | 78   |
+Ensignant : 
+| id | nom         | dateNaiss  | matiere   |
+|----|-------------|------------|-----------|
+| 1  | Mark Brown  | 1980-11-02 | Physics   |
+| 2  | Laura Green | 1975-05-18 | Math      |
+| 3  | James White | 1985-09-30 | English   |
 
-
-	
-	| Id | NomProfesseur | Matiere | 
-	|-----|--------|----------|
-	 | 1 | Alice | Math |
-	 | 2 | Bob | Physics |
   
   
   
@@ -138,7 +138,7 @@ Une table pour la classe parente et une table pour chaque classe fille `JOINED_T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzAzMDY2NCwxNDc1MzE4ODI1LDQ0OT
-g3MjI5NCwtMzA4NjA0OTE4LC0xMTAzODg5NDM1LDE4MTcwMDI5
-MzYsMzY1MzIyMDA2XX0=
+eyJoaXN0b3J5IjpbOTk5Mzc4MTEzLDE0NzUzMTg4MjUsNDQ5OD
+cyMjk0LC0zMDg2MDQ5MTgsLTExMDM4ODk0MzUsMTgxNzAwMjkz
+NiwzNjUzMjIwMDZdfQ==
 -->

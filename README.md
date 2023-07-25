@@ -125,7 +125,7 @@ Avantages de `SINGLE_TABLE`:
 	- Recherche de Données Rapide.
 
 Désavantages de `SINGLE_TABLE` : 
-	- Colonnes Redondantes.
+	- Redondantes de donnees.
 	- Certaines colonnes peuvent rester null.
 
 Mallieur cas d'utilisation : pas des colonnes rester null.
@@ -159,7 +159,6 @@ Avantages de `TABLE_PER_CLASS`:
 
 Désavantages de `TABLE_PER_CLASS` : 
 	- Colonnes Redondantes.
-	- 
 
 Utilisée dans des situations où les classes d'entités ont des attributs significativement différents
 ```
@@ -192,9 +191,10 @@ Utilisée dans des situations où les classes d'entités ont des attributs signi
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDIzMTUsMzIyODA2OTQzLDE5NTgzNz
-QyOTMsMzQwODczNTQ5LC0xMjUzODEwMTk0LDE5NjY1NDAyMjks
-MTcxMDM3OTY4MCwtMzMwOTM3NTE4LDU2NjM3NjQ2NSwtMTc3ND
-Y1NjA1MywxNDc1MzE4ODI1LDQ0OTg3MjI5NCwtMzA4NjA0OTE4
-LC0xMTAzODg5NDM1LDE4MTcwMDI5MzYsMzY1MzIyMDA2XX0=
+eyJoaXN0b3J5IjpbLTEwNTQzMzg5NDYsMzIyODA2OTQzLDE5NT
+gzNzQyOTMsMzQwODczNTQ5LC0xMjUzODEwMTk0LDE5NjY1NDAy
+MjksMTcxMDM3OTY4MCwtMzMwOTM3NTE4LDU2NjM3NjQ2NSwtMT
+c3NDY1NjA1MywxNDc1MzE4ODI1LDQ0OTg3MjI5NCwtMzA4NjA0
+OTE4LC0xMTAzODg5NDM1LDE4MTcwMDI5MzYsMzY1MzIyMDA2XX
+0=
 -->

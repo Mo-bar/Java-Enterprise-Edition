@@ -107,7 +107,7 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 <img src="https://github.com/Mo-bar/Java-Enterprise-Edition/assets/98557431/ac3e5f9b-0c81-49cd-aea9-ac2fd087676a">
 
 -  #### Les stratégies de Mapping de I'héritage
-	- **Une table par hiérarchie `SINGLE_TABLE` :**
+	- **Une table par hiérarchie `SINGLE_TABLE` : `Personne`**
 	
 	| Id |  Type  | Nom | Matiere | Note |  				
 	|-----|---------|--------|----------|------|  			
@@ -132,6 +132,6 @@ Une table pour la classe parente et une table pour chaque classe fille `JOINED_T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDM5Njg5NCwtMzA4NjA0OTE4LC0xMT
-AzODg5NDM1LDE4MTcwMDI5MzYsMzY1MzIyMDA2XX0=
+eyJoaXN0b3J5IjpbODEzODU3NjkwLC0zMDg2MDQ5MTgsLTExMD
+M4ODk0MzUsMTgxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
 -->

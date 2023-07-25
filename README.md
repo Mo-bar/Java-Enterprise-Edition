@@ -112,8 +112,8 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 | id | type   | nom        | dateNaiss  | matiere   | note |
 |----|--------|------------|------------|-----------|------|
 | 1  | Student| John Smith | 1995-08-15 | Math      | 85   |
-| 2  | Student| Jane Doe   | 1998-03-22 | Science   | 90   |
-| 3  | Teacher| Mark Brown | 1980-11-02 | Physics   | N/A  |
+| 2  | Student| Jane Doe   | 1998-03-22 | null      | 90   |
+| 3  | Teacher| Mark Brown | 1980-11-02 | Physics   | null |
 | 4  | Student| Emily Rose | 2000-06-10 | English   | 78   |
 
 	
@@ -148,7 +148,7 @@ Ensignant :
 | 1   | 85   |
 | 2   | 90   |
 | 3   | 78   |
--- Ensignan
+-- Ensignant : 
 
 | #Id | matiere   |
 |-----|-----------|
@@ -157,7 +157,7 @@ Ensignant :
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5NzI2ODY1LC0xNzc0NjU2MDUzLDE0Nz
+eyJoaXN0b3J5IjpbNTY2Mzc2NDY1LC0xNzc0NjU2MDUzLDE0Nz
 UzMTg4MjUsNDQ5ODcyMjk0LC0zMDg2MDQ5MTgsLTExMDM4ODk0
 MzUsMTgxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
 -->

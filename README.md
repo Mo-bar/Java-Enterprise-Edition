@@ -118,7 +118,7 @@ Deux Associations : Un à Plusieurs + Plusieurs à 1
 
 ```
 Avantages de `SINGLE_TABLE`:
-	- 
+	- Recherche de Données Rapide.
 ```
 	
 **2. Une table pour chaque classe concréte `TABLE_PER_CLASS`**
@@ -168,8 +168,8 @@ Avantages de `SINGLE_TABLE`:
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjU0MDIyOSwxNzEwMzc5NjgwLC0zMz
-A5Mzc1MTgsNTY2Mzc2NDY1LC0xNzc0NjU2MDUzLDE0NzUzMTg4
-MjUsNDQ5ODcyMjk0LC0zMDg2MDQ5MTgsLTExMDM4ODk0MzUsMT
-gxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
+eyJoaXN0b3J5IjpbLTEyNTM4MTAxOTQsMTk2NjU0MDIyOSwxNz
+EwMzc5NjgwLC0zMzA5Mzc1MTgsNTY2Mzc2NDY1LC0xNzc0NjU2
+MDUzLDE0NzUzMTg4MjUsNDQ5ODcyMjk0LC0zMDg2MDQ5MTgsLT
+ExMDM4ODk0MzUsMTgxNzAwMjkzNiwzNjUzMjIwMDZdfQ==
 -->

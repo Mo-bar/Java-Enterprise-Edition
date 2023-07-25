@@ -124,6 +124,7 @@ avec une colonne de discrimination pour identifier le type d'entité de chaque e
 
 Avantages de `SINGLE_TABLE`:
 	- Recherche de Données Rapide.
+
 Désavantages de `SINGLE_TABLE` : 
 	- Colonnes Redondantes.
 	- Certaines colonnes peuvent rester null.
@@ -176,7 +177,7 @@ Désavantages de `SINGLE_TABLE` :
 | 3   | English   |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzM5MDMzMywzNDA4NzM1NDksLTEyNT
+eyJoaXN0b3J5IjpbMTk1ODM3NDI5MywzNDA4NzM1NDksLTEyNT
 M4MTAxOTQsMTk2NjU0MDIyOSwxNzEwMzc5NjgwLC0zMzA5Mzc1
 MTgsNTY2Mzc2NDY1LC0xNzc0NjU2MDUzLDE0NzUzMTg4MjUsND
 Q5ODcyMjk0LC0zMDg2MDQ5MTgsLTExMDM4ODk0MzUsMTgxNzAw
